@@ -17,8 +17,8 @@ class LoadDatabase {
     CommandLineRunner initDatabase(RecipeRepository repository) {
 
         return args -> {
-            log.info("Preloading " + repository.save(new Recipe("Bilbo Baggins", "burglar")));
-            log.info("Preloading " + repository.save(new Recipe("Frodo Baggins", "thief")));
+            log.info("Preloading " + repository.save(new Recipe("Sourdough Bread", "Delicious freshly baked bread")));
+            log.info("Preloading " + repository.save(new Recipe("Lentil Soup", "Hearty warm lentil soup")));
         };
     }
 }
