@@ -11,9 +11,10 @@ spec:
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
+  - name: gitImplementation
+    value: "libgit2"
   source:
     git:
-      gitImplementation: libgit2
       url: https://ykhadilkar@dev.azure.com/ykhadilkar/Recipe-Api/_git/Recipe-Api
       ref:
         branch: main
