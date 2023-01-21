@@ -13,8 +13,10 @@ spec:
       autoscaling.knative.dev/minScale: "1"
   - name: gitImplementation
     value: "libgit2"
+  - name: gitops_ssh_secret
+    value: azure-devops-secret
   source:
     git:
-      url: https://ykhadilkar@dev.azure.com/ykhadilkar/Recipe-Api/_git/Recipe-Api
+      url: ssh://git@ssh.dev.azure.com:v3/ykhadilkar/Recipe-Api/Recipe-Api
       ref:
         branch: main
