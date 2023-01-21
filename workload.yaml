@@ -17,6 +17,6 @@ spec:
     value: azure-devops-secret
   source:
     git:
-      url: ssh://git@ssh.dev.azure.com:v3/ykhadilkar/Recipe-Api/Recipe-Api
+      url: https://ykhadilkar@dev.azure.com/ykhadilkar/Recipe-Api/_git/Recipe-Api
       ref:
         branch: main
