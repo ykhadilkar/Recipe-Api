@@ -14,7 +14,7 @@ spec:
   - name: gitImplementation
     value: "libgit2"
   - name: gitops_ssh_secret
-    value: azure-devops-secret
+    value: devops-auth
   source:
     git:
       url: https://ykhadilkar@dev.azure.com/ykhadilkar/Recipe-Api/_git/Recipe-Api
