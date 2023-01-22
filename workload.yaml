@@ -18,8 +18,8 @@ spec:
     value:
       type: openapi 
       location:
-        path: "/api-docs"  # The path to the api documentation
-      owner: default-team   # The team that owns this
+        path: "/api-docs" 
+      owner: default-team   
       system: recipe
       description: "A set of API endpoints to manage the resources within the recipe app."
   - name: annotations
