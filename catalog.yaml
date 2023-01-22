@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Recipe
+  name: recipe
   description: Recipe App
   tags:
     - app-accelerator
@@ -15,3 +15,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: default-team
+  providesApis:
+    - recipe-api
