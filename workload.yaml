@@ -24,4 +24,3 @@ spec:
       url: https://ykhadilkar@dev.azure.com/ykhadilkar/Recipe-Api/_git/Recipe-Api
       ref:
         branch: main
-        commit: 3bb32141c80bf8e318bbf3676b2f75825354f975
