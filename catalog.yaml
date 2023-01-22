@@ -16,4 +16,4 @@ spec:
   lifecycle: experimental
   owner: default-team
   providesApis:
-    - recipe-api
+    - recipe-api-tap-full

@@ -20,8 +20,8 @@ spec:
       location:
         path: "/api-docs" 
       owner: default-team   
-      system: recipe
-      description: "A set of API endpoints to manage the resources within the recipe app."
+      system: recipes
+      description: A set of API endpoints to manage the resources within the recipe app.
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
