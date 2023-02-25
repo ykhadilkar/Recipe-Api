@@ -13,4 +13,3 @@
 
 ## Push image to registry
 `docker tag recipe-api:0.0.1-SNAPSHOT harbor.lab.khadilkar.net:library/recipe-api:latest`
-
